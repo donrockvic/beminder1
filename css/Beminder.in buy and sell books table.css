@@ -1,0 +1,15 @@
+/* CSS Document */
+ .details {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #99567f;
+border-top: 1px solid #99567f;
+text-align: left;}
+ 
+tr:hover {
+background-color: #feeebe;}	

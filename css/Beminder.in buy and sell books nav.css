@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	background-color:#5e1e2a;
+	color:#FFF;
+ }
+ .navbar >div>a{
+	 color:#FFF;
+ }
+ .navbar > div > div > a{
+	 color:#FFF;
+ }
+ 
+ .navbar, .navbar-nav, .nav{
+	margin-left:0px;
+	width: 1350px !important;
+	
+ }
+ .navbar > div {
+	 margin-left:0px; 
+ }
+ .navbar{
+	 overflow:visible;
+ }
+ .nav > li,
+ .navbar-nav> li,
+ .myNav > li{
+ 	display:inlinel;
+ }
+ 
+.navbar-nav > li > a:visited,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active{
+  color: #fff;
+  text-decoration: none;
+  background-color: #99567f;
+}
+@media (min-width: 768px) {
+  .navbar, .navbar-nav, .nav{
+	margin-left:0px;
+	width: 1400px !important;	
+  }
+   .navbar{
+	 overflow:visible;
+ }
+ .nav > li,
+ .navbar-nav> li,
+ .myNav > li{
+ 	display:inlinel;
+ }
+	
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .navbar, .navbar-nav, .nav{
+	  margin-left:0px;
+	  width: 1400px !important;	
+   }
+  .navbar{
+   overflow:visible;
+  }
+ .nav > li,
+ .navbar-nav> li,
+ .myNav > li{
+ 	display:inlinel;
+ }
+}
+@media (max-width: 767px) {
+ .navbar, .navbar-nav, .nav{
+	 margin-left:0px;
+	 width: 1400px !important;	
+ }
+ .navbar{
+	 overflow:visible;
+ }
+ .nav > li,
+ .navbar-nav> li,
+ .myNav > li > a{
+	clear:none;
+	float :left;
+ 	display:inlinel;
+ }
+
+}
+
+ /* .myDropdown1 */
+ .myDropdown1{
+	  width:300px;
+	  max-height:430px;
+	  background-color:#5e1e2a;
+ }
+  .myDropdown1 > li{ 
+  	  max-width:350px;
+	  max-height:500px;
+ }
+ .myDropdown1 > li >a {
+	color:#FFFFFF; 
+	
+ }
+ .myDropdown1 > li > ul > li{
+	  padding:0px 25px;
+	   color:#FFFFFF;
+ }
+ .myDropdown1 > li > ul > li .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #99567f;
+}
+.myDropdown1 > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #DDD;
+  white-space: nowrap;
+}
+.myDropdown1 > li > ul > li > a:hover,
+.myDropdown1 > li > ul > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #99567f;
+}
+.myDropdown1 > li > ul > li > .active > a,
+.myDropdown1> li > ul > li > .active > a:hover,
+.myDropdown1 > li > ul > li > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #5e1e2a;
+  outline: 0;
+}
+
+.myDropdown1 > li > a:hover,
+.myDropdown1 > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #99567f;
+}
+
+/* beminder .myDropdown */
+ .myDropdown{
+	  width:1050px;
+	  max-height:430px;
+	  background-color:#5e1e2a;
+ }
+  .myDropdown > li{ 
+  	  max-width:350px;
+	  max-height:500px;
+ }
+ .myDropdown > li >a {
+	color:#FFFFFF; 
+ }
+.myDropdown > li > a:hover,
+.myDropdown > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #99567f;
+}
+ .myDropdown > li > ul > li{
+	  padding:0px 25px;
+	   color:#FFFFFF;
+ }
+ .myDropdown > li > ul > li .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #99567f;
+}
+.myDropdown > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #DDD;
+  white-space: nowrap;
+}
+.myDropdown > li > ul > li > a:hover,
+.myDropdown > li > ul > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #99567f;
+}
+.myDropdown > li > ul > li > .active > a,
+.myDropdown > li > ul > li > .active > a:hover,
+.myDropdown > li > ul > li > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #5e1e2a;
+  outline: 0;
+}
+ /*   */
+.myNested{
+	background-color:#5e1e2a;
+	max-width:350px;
+}
+.side1{
+	position:relative;
+	top:-416px;
+	left:350px;
+}
+.side2{
+	position:relative;
+	top:-832px;
+	left:700px;
+}
